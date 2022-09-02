@@ -25,19 +25,23 @@
     <main>
         <h2><b>CONTACTANOS</b></h2>
     <form action="">
-        <section><label for="Name"></label>
+        <section>
+        <label for="Name"></label>
         <span>Nombre:</span>
         <input type="text" id="name" placeholder="Ingrese aquí su Nombre (Ej. Alberto)"required><label for="Surname"></label>
         <span>Apellido:</span>
         <input type="text" id="Surname" placeholder="Ingrese aquí su Apellido (Ej. Torres)"required></section> <br>
-    <section><label for="mail"></label>
+    <section>
+        <label for="mail"></label>
         <span>Email</span>
         <input type="text" id="mail" placeholder="Ingrese aquí su Email (Ej. 123@gmail.com)"required></section><br>
-        <div><label for="phone"></label>
+        <div>
+        <label for="phone"></label>
         <span>Telefono de Contacto:</span>
         <input type="text" id="phone" placeholder="Ingrese aquí su Telefono sin 0, ni 15 (Ej. 3516666666)"required>            
         </div><br>
-        <div><label for="Reason"></label>
+        <div>
+        <label for="Reason"></label>
         <span>Motivo:</span>
         <input type="text" id="Reason" placeholder="Ingrese aquí Motivo de Consulta (Ej. Pedido)"></div><br>
         <label for="Comment"></label>
@@ -51,7 +55,12 @@
         <label for="Aceptar">Aceptar Terminos y Condiciones.</label>
         <input type="checkbox" id="Aceptar" name="Aceptar" value="1">
     </div><br>
-<input type="submit">
+    <div><br>
+        <img src="../images/RecaptchaLogo.svg.png" alt="RaCaptcha">
+        <label for="Aceptar">No soy Robot.</label>
+        <input type="checkbox" id="Aceptar" name="Aceptar" value="1">
+    </div>
+    <input type="submit">
     </form>
     </main>
     <footer>
