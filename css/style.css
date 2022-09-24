@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body { 
+    background: linear-gradient(0deg, rgba(32,32,30,1) 0%, rgba(194,194,75,1) 100%)
+}
+
+
+.NavBar ul li a {
+    color: rgb(83, 77, 77);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+h1 {
+color:rgb(212, 212, 158);
+font-family: 'Bungee', cursive;
+font-size: 45px;
+text-shadow: 3px 3px 2px black;
+}
+
+.Text1 {
+    color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    text-shadow: 1px 1px 1px black;
+    text-indent: 5px;
+    line-height: 2;
+}
+
+.info {
+    font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+.footer{
+    color: rgb(219, 226, 226);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+
+.Menu2, ul li a {
+    color: rgb(219, 226, 226);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: none;
+}
