@@ -5,24 +5,56 @@
 }
 
 body { 
-    background: linear-gradient(0deg, rgba(32,32,30,1) 0%, rgba(194,194,75,1) 100%)
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 .NavBar ul li a {
     color: rgb(83, 77, 77);
+    height: 100vh;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     text-decoration: none;
 }
 
 h1 {
-color:rgb(212, 212, 158);
+color:rgba(218, 218, 204, 0.925);
 font-family: 'Bungee', cursive;
 font-size: 45px;
+border-style: dark, solid 2px;
 text-shadow: 3px 3px 2px black;
 }
+
+h2 {
+    color:rgba(245, 245, 227, 0.747);
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    border-style: dark, solid 2px;
+    text-shadow: 3px 3px 2px black;
+    }
+
+.ImpNer {
+    color: rgba(196, 189, 189, 0.897);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.NavSearch {
+color: black;
+font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+h6 {
+    color: rgba(36, 31, 31, 0.301);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline 2px;
+    }
 
 .Text1 {
     color: white;
@@ -37,9 +69,22 @@ text-shadow: 3px 3px 2px black;
 
 .info {
     font-family: 'Saira Semi Condensed', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+    border-style: groove;
+    height: 25%;
 
 }
 
+Form {
+    color: azure;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: oblique 25deg;
+}
 .footer{
     color: rgb(219, 226, 226);
     font-family: 'Saira Semi Condensed', sans-serif;
